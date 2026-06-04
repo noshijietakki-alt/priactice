@@ -1,8 +1,4 @@
-n = int(input())
-
-if n < 1000:
-    ans = 'ABC'
-else:
-    ans = 'ABD'
-
-print(ans)
+import re
+s=str(input())
+s=re.sub(r'[aeiuo]','',s)
+print(s)
