@@ -1,6 +1,0 @@
-n,m,p=map(int,input().split())
-man=(n-m)//p
-if man>=0:
-    print(man+1)
-else:
-    print(0)
