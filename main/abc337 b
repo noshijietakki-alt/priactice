@@ -1,0 +1,8 @@
+s=str(input())
+a=s.count("A")
+b=s.count("B")
+c=s.count("C")
+if a*"A"+b*"B"+c*"C"==s:
+    print("Yes")
+else:
+    print("No")
