@@ -12,3 +12,4 @@ elif x_total<y_total:
     print("Aoki")
 else:
     print("Draw")
+    
