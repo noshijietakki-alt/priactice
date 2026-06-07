@@ -1,0 +1,3 @@
+s=str(input())
+g=6//len(s)
+print(s*g)
