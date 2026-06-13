@@ -1,0 +1,17 @@
+n=int(input())
+d={i:[]for i in range(1,n+1)}
+for i in range(n):
+    k=list(map(int,input().split()))
+    for recive in k[1:]:
+        giver=i+1
+        d[recive].append(giver)
+
+for v in d.values():
+    print(len(v),*v)
+        
+
+
+        
+
+
+        
