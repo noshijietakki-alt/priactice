@@ -1,0 +1,28 @@
+n=int(input())
+s_1=str(input())
+s_2=str(input())
+g=False
+for _ in range(n):
+    s_2=s_2[-1]+s_2[:-1]
+    if s_2==s_1:
+        g=True
+        break
+    else:
+        g=False
+if g==True:
+    print("Yes")
+else:
+    print("No")
+
+
+
+
+
+
+
+   
+    
+    
+    
+
+    
